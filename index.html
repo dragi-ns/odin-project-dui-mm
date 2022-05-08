@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile menu | Dynamic User Interface</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
+    />
+    <script type="module" defer>
+      import initMobileNavigation from './mobileNavigation.js';
+      initMobileNavigation();
+    </script>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="brand">SUPER<span>LOGO</span></div>
+        <nav
+          id="primary-navigation"
+          class="primary-navigation"
+          data-visible="false"
+        >
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Bla Bla</a></li>
+          </ul>
+        </nav>
+        <button
+          class="mobile-nav-toggle"
+          data-target="primary-navigation"
+          data-expanded="false"
+        ></button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+          reprehenderit laborum architecto unde odio quam consectetur alias,
+          omnis cumque earum nisi, fugit ratione, reiciendis illo officia
+          recusandae! Magnam, nobis repudiandae?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          assumenda autem in natus, ad blanditiis incidunt. Ut rem nostrum
+          deleniti officiis? Dolorum vitae itaque quidem rem ex reiciendis harum
+          recusandae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quod
+          natus omnis similique temporibus ad nesciunt nostrum? Recusandae
+          maxime praesentium nemo iste neque itaque, provident deserunt
+          voluptatem corporis, vel distinctio.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          quisquam modi debitis odio laborum perspiciatis? Quis nam laudantium
+          dolorem nulla placeat quam cum impedit est, debitis laboriosam fugit
+          rem officiis?
+        </p>
+        <p>
+          Rerum magni rem necessitatibus, accusantium ex animi sint aut optio
+          dolor ad sunt ducimus at sit quas eius nemo aperiam veritatis sapiente
+          a repellat itaque? Animi error ex odit architecto.
+        </p>
+        <p>
+          Facere voluptates consequatur corporis debitis reiciendis alias
+          impedit vel amet voluptas vero nisi, est quos officia minus, assumenda
+          eaque veniam, neque explicabo maiores autem harum. Atque magnam ipsam
+          omnis quia!
+        </p>
+        <p>
+          Suscipit in necessitatibus, natus quia eius aliquid quisquam
+          molestiae, magni pariatur quos eveniet doloribus, saepe provident
+          voluptatum debitis beatae? Consectetur dolore debitis dolorum enim
+          illum labore fugit laudantium esse? Delectus.
+        </p>
+        <p>
+          Nemo temporibus laborum modi necessitatibus sit blanditiis vitae aut
+          placeat nihil expedita magni ex quam rerum repellendus, at vero
+          dolores enim id ipsum odio. Est tempora molestias sint quos similique.
+        </p>
+      </div>
+    </main>
+    <footer class="primary-footer">
+      <div class="container">
+        &copy; 2022
+        <a href="https://github.com/dragi-ns/odin-project-dui-mm">dragi-ns</a>
+      </div>
+    </footer>
+  </body>
+</html>
