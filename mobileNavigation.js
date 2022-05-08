@@ -13,7 +13,6 @@ function initMobileNavigation() {
 
   document.addEventListener('click', (event) => {
     const target = event.target;
-    console.log(target);
     if (
       target !== navigationToggle &&
       target.closest('#primary-navigation') === null &&
